@@ -113,7 +113,9 @@ export class HomeComponent implements OnInit {
 
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
+    
 
+  
   // CLEAR
   clearForm() {
     this.accounts = {
